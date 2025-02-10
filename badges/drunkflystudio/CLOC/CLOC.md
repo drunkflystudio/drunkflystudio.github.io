@@ -2,9 +2,6 @@ Code Line Count
 ===============
 Totals
 ------
-cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1398.2 files/s, 158606.2 lines/s)
---- | ---
-
 Language|files|blank|comment|code
 :-------|-------:|-------:|-------:|-------:
 C|16|688|91|4449
@@ -19,9 +16,6 @@ Unix .sh|15|13|0|138
 SUM:|124|1745|473|11848
 Per File
 --------
-cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1419.4 files/s, 161006.4 lines/s)
---- | ---
-
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 ./base-compiler/tests/parsercb.h|331|9|2079
