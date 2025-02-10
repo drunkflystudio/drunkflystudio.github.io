@@ -1,7 +1,7 @@
 Code Line Count
 ===============
-Totals
-------
+Per Language
+------------
 Language|files|blank|comment|code
 :-------|-------:|-------:|-------:|-------:
 C|16|688|91|4449
@@ -11,9 +11,10 @@ CMake|27|254|73|1324
 Yacc|1|110|21|617
 Re2C|1|31|5|361
 Windows .bat/.cmd|37|10|0|301
-Unix .sh|15|13|0|138
+Unix .sh|15|13|0|139
 --------|--------|--------|--------|--------
-SUM:|124|1745|473|11848
+SUM:|124|1745|473|11849
+
 Per File
 --------
 File|blank|comment|code
@@ -65,10 +66,10 @@ File|blank|comment|code
 ./_cmake/projects.cmake|3|0|24
 ./_cmake/toolchain/watcom10/wlink.cmd|0|0|22
 ./base-compiler/src/drunkfly/compiler/lexer.h|5|0|22
+./_tools/count_lines_of_code.sh|6|0|21
 ./base-compiler/cmake/dependencies.cmake|3|0|21
 ./_build/win32_all.cmd|4|0|20
 ./_cmake/toolchain/borland45/tlib.cmd|0|0|20
-./_tools/count_lines_of_code.sh|6|0|20
 ./base-common/src/drunkfly/vm.h|8|0|20
 ./_cmake/compiler/gnu.cmake|4|0|19
 ./_cmake/tests.cmake|3|0|19
@@ -143,4 +144,4 @@ File|blank|comment|code
 ./base-common/lib/CMakeLists.txt|1|0|1
 ./base-compiler/tests/conf-in.h|0|0|1
 --------|--------|--------|--------
-SUM:|1745|473|11848
+SUM:|1745|473|11849
