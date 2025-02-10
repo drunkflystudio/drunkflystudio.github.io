@@ -2,7 +2,7 @@ Code Line Count
 ===============
 Totals
 ------
-cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1390.8 files/s, 157615.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1398.2 files/s, 158606.2 lines/s)
 --- | ---
 
 Language|files|blank|comment|code
@@ -13,13 +13,13 @@ Lua|12|172|12|1658
 CMake|27|254|73|1324
 Yacc|1|110|21|617
 Re2C|1|31|5|361
-Windows .bat/.cmd|37|4|0|294
+Windows .bat/.cmd|37|10|0|301
 Unix .sh|15|13|0|138
 --------|--------|--------|--------|--------
-SUM:|124|1739|473|11841
+SUM:|124|1745|473|11848
 Per File
 --------
-cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1384.4 files/s, 156892.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.04  T=0.09 s (1419.4 files/s, 161006.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -96,8 +96,10 @@ File|blank|comment|code
 ./CMakeLists.txt|3|0|12
 ./_build/linux_all.sh|0|0|11
 ./_tools/winver/winver.c|1|0|11
+./all_push.cmd|3|0|10
 ./base-compiler/src/drunkfly/compiler/semantic.h|4|0|10
 ./base-compiler/tests/p_attr.lua|1|0|10
+./all_pull.cmd|3|0|9
 ./count_lines_of_code.cmd|0|0|9
 ./_build/macos_all.sh|0|0|8
 ./base-common/CMakeLists.txt|5|2|8
@@ -115,8 +117,6 @@ File|blank|comment|code
 ./_build/macos_xcode.sh|0|0|6
 ./_build/macos_xcode_debug.sh|0|0|6
 ./_build/macos_xcode_release.sh|0|0|6
-./all_pull.cmd|0|0|6
-./all_push.cmd|0|0|6
 ./_build/win32_bc45_release.cmd|0|0|5
 ./_build/win32_html5_debug.cmd|0|0|5
 ./_build/win32_html5_release.cmd|0|0|5
@@ -149,4 +149,4 @@ File|blank|comment|code
 ./base-common/lib/CMakeLists.txt|1|0|1
 ./base-compiler/tests/conf-in.h|0|0|1
 --------|--------|--------|--------
-SUM:|1739|473|11841
+SUM:|1745|473|11848
