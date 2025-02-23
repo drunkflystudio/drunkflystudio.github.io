@@ -4,26 +4,26 @@ Per Language
 ------------
 Language|files|blank|comment|code
 :-------|-------:|-------:|-------:|-------:
-C|17|824|111|4937
-C/C++ Header|15|471|272|3016
+C|19|831|111|5010
+C/C++ Header|16|476|272|3026
 Lua|12|193|12|1979
-CMake|30|270|80|1406
-Yacc|1|113|21|635
+CMake|32|277|83|1440
+Yacc|1|114|21|641
 Re2C|1|32|5|366
-Windows .bat/.cmd|37|12|0|307
+Windows .bat/.cmd|37|14|0|313
 Unix .sh|15|13|0|139
 --------|--------|--------|--------|--------
-SUM:|128|1928|501|12785
+SUM:|133|1950|504|12914
 
 Per File
 --------
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 ./base-compiler/tests/parsercb.h|332|9|2087
-./base-compiler/src/drunkfly/compiler/cg_boot.c|302|15|1576
+./base-compiler/src/drunkfly/compiler/cg_boot.c|302|15|1584
 ./base-compiler/src/drunkfly/compiler/semantic.c|161|0|1175
 ./base-compiler/src/drunkfly/compiler/parser.ske|86|75|850
-./base-compiler/src/drunkfly/compiler/parser.y|113|21|635
+./base-compiler/src/drunkfly/compiler/parser.y|114|21|641
 ./base-common/lib/pstdint/pstdint.h|52|247|529
 ./base-compiler/tests/l_main.lua|35|0|436
 ./base-compiler/tests/bootstrp.lua|23|0|375
@@ -32,16 +32,16 @@ File|blank|comment|code
 ./_buildtool/macros.cmake|45|11|292
 ./base-compiler/tests/test.c|64|6|290
 ./base-common/src/drunkfly/vm.c|57|0|266
+./base-compiler/src/main.c|43|14|211
 ./_buildtool/targets.cmake|21|10|205
 ./base-compiler/tests/p_stmt.lua|32|0|200
 ./base-compiler/src/drunkfly/compiler/parser.h|19|12|185
-./base-compiler/src/main.c|41|14|180
 ./base-compiler/tests/p_enum.lua|14|0|179
 ./_cmake/compiler/borland.cmake|2|1|131
 ./base-compiler/tests/l_num16.lua|6|3|131
 ./base-common/tests/pstdint.c|9|0|99
+./base-compiler/src/CMakeLists.txt|24|8|97
 ./base-compiler/tests/l_num1.lua|6|3|96
-./base-compiler/src/CMakeLists.txt|24|8|95
 ./base-compiler/tests/l_num8.lua|6|3|85
 ./base-compiler/tests/main.c|23|0|85
 ./base-compiler/tests/p_types.lua|12|0|84
@@ -51,17 +51,18 @@ File|blank|comment|code
 ./base-compiler/tests/l_num10.lua|5|3|75
 ./base-compiler/tests/util.c|13|0|74
 ./base-compiler/src/drunkfly/compiler.c|17|0|71
-./base-compiler/src/drunkfly/compiler/codegen.c|17|0|65
+./base-compiler/src/drunkfly/compiler/codegen.c|18|0|69
+./_cmake/toolchain/borland45/_win32.cmake|19|0|64
+./_cmake/common.cmake|14|7|63
 ./_cmake/toolchain/watcom10/_win32.cmake|19|0|63
 ./_cmake/flags.cmake|7|0|58
-./_cmake/toolchain/borland45/_win32.cmake|18|0|55
 ./base-compiler/src/drunkfly/compiler/arena.c|9|0|51
-./_cmake/common.cmake|14|7|50
 ./base-common/src/drunkfly/buff.c|8|1|49
 ./base-common/tests/vm.c|5|0|44
 ./base-compiler/tests/tests.h|8|2|37
 ./_tools/linux_install_deps.sh|7|0|34
-./base-compiler/src/drunkfly/compiler.h|14|2|30
+./base-compiler/src/drunkfly/compiler.h|15|2|32
+./base-compiler/src/drunkfly/compiler/bundle.c|4|0|29
 ./base-common/tests/main.c|7|0|28
 ./_cmake/compiler/msvc.cmake|7|0|25
 ./_cmake/projects.cmake|3|0|24
@@ -77,23 +78,23 @@ File|blank|comment|code
 ./_cmake/tests.cmake|3|0|19
 ./_cmake/toolchain/clang350_linux64.cmake|5|0|19
 ./base-common/tests/CMakeLists.txt|5|0|19
+./base-compiler/src/drunkfly/compiler/private.h|3|0|18
 ./base-common/src/drunkfly/buff.h|4|0|17
-./base-compiler/src/drunkfly/compiler/private.h|3|0|17
 ./open_browser_debug.cmd|0|0|17
 ./open_browser_release.cmd|0|0|17
+./all_push.cmd|5|0|16
 ./base-common/src/drunkfly/common.h|8|0|16
 ./base-compiler/src/drunkfly/compiler/arena.h|5|0|16
 ./_cmake/toolchain/borland45/bcc32.cmd|0|0|15
 ./_cmake/toolchain/watcom10/wcc386.cmd|0|0|15
+./all_pull.cmd|5|0|15
+./server-core/src/CMakeLists.txt|7|1|15
 ./_cmake/compiler/emscripten.cmake|3|0|14
 ./_cmake/toolchain/watcom10/wlib.cmd|0|0|14
 ./base-compiler/src/drunkfly/compiler/codegen.h|5|0|14
 ./base-compiler/src/drunkfly/compiler/token.h|4|0|14
-./server-core/src/CMakeLists.txt|5|0|14
-./all_push.cmd|4|0|13
 ./base-common/src/CMakeLists.txt|4|0|13
 ./CMakeLists.txt|3|0|12
-./all_pull.cmd|4|0|12
 ./_build/linux_all.sh|0|0|11
 ./_tools/winver/winver.c|1|0|11
 ./base-compiler/src/drunkfly/compiler/semantic.h|4|0|10
@@ -107,6 +108,7 @@ File|blank|comment|code
 ./_build/linux_gcc64_release.sh|0|0|7
 ./_tools/cmake-3.31.4.cmd|0|0|7
 ./_tools/cmake-3.5.2.cmd|0|0|7
+./base-compiler/src/drunkfly/compiler/bundle.h|4|0|7
 ./open_msvc2022_32.cmd|0|0|7
 ./open_msvc2022_64.cmd|0|0|7
 ./open_xcode.sh|0|0|7
@@ -135,8 +137,10 @@ File|blank|comment|code
 ./_cmake/compiler/watcom.cmake|2|0|5
 ./base-compiler/CMakeLists.txt|2|2|5
 ./base-compiler/tests/p_main.lua|1|0|5
+./base-runtime/src/CMakeLists.txt|2|0|5
 ./_build/win32_bc45_debug.cmd|0|0|4
 ./_tools/winver/compile.cmd|0|0|4
+./base-runtime/CMakeLists.txt|2|2|4
 ./build_linux_all.sh|0|0|4
 ./build_macos_all.sh|0|0|4
 ./count_lines_of_code.sh|0|0|4
@@ -145,7 +149,8 @@ File|blank|comment|code
 ./base-common/cmake/common.cmake|1|0|1
 ./base-common/lib/CMakeLists.txt|1|0|1
 ./base-compiler/tests/conf-in.h|0|0|1
+./base-runtime/src/console.c|0|0|1
 ./server-core/cmake/dependencies.cmake|1|2|1
 ./base-common/cmake/dependencies.cmake|0|2|0
 --------|--------|--------|--------
-SUM:|1928|501|12785
+SUM:|1950|504|12914
