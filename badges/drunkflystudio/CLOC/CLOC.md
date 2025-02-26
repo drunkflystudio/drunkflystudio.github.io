@@ -7,13 +7,13 @@ Language|files|blank|comment|code
 C|19|831|111|5010
 C/C++ Header|16|476|272|3026
 Lua|12|193|12|1979
-CMake|32|277|83|1440
+CMake|32|279|83|1451
 Yacc|1|114|21|641
 Re2C|1|32|5|366
 Windows .bat/.cmd|37|14|0|313
 Unix .sh|15|13|0|139
 --------|--------|--------|--------|--------
-SUM:|133|1950|504|12914
+SUM:|133|1952|504|12925
 
 Per File
 --------
@@ -28,8 +28,8 @@ File|blank|comment|code
 ./base-compiler/tests/l_main.lua|35|0|436
 ./base-compiler/tests/bootstrp.lua|23|0|375
 ./base-compiler/src/drunkfly/compiler/lexer.re|32|5|366
+./_buildtool/macros.cmake|47|11|303
 ./base-compiler/tests/p_expr.lua|52|0|303
-./_buildtool/macros.cmake|45|11|292
 ./base-compiler/tests/test.c|64|6|290
 ./base-common/src/drunkfly/vm.c|57|0|266
 ./base-compiler/src/main.c|43|14|211
@@ -153,4 +153,4 @@ File|blank|comment|code
 ./server-core/cmake/dependencies.cmake|1|2|1
 ./base-common/cmake/dependencies.cmake|0|2|0
 --------|--------|--------|--------
-SUM:|1950|504|12914
+SUM:|1952|504|12925
