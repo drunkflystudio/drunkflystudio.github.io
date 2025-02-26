@@ -7,13 +7,13 @@ Language|files|blank|comment|code
 C|19|831|111|5010
 C/C++ Header|16|476|272|3026
 Lua|12|193|12|1979
-CMake|32|279|83|1451
-Yacc|1|114|21|641
+CMake|32|280|85|1465
+Yacc|1|113|21|645
 Re2C|1|32|5|366
 Windows .bat/.cmd|37|14|0|313
 Unix .sh|15|13|0|139
 --------|--------|--------|--------|--------
-SUM:|133|1952|504|12925
+SUM:|133|1952|506|12943
 
 Per File
 --------
@@ -23,12 +23,12 @@ File|blank|comment|code
 ./base-compiler/src/drunkfly/compiler/cg_boot.c|302|15|1584
 ./base-compiler/src/drunkfly/compiler/semantic.c|161|0|1175
 ./base-compiler/src/drunkfly/compiler/parser.ske|86|75|850
-./base-compiler/src/drunkfly/compiler/parser.y|114|21|641
+./base-compiler/src/drunkfly/compiler/parser.y|113|21|645
 ./base-common/lib/pstdint/pstdint.h|52|247|529
 ./base-compiler/tests/l_main.lua|35|0|436
 ./base-compiler/tests/bootstrp.lua|23|0|375
 ./base-compiler/src/drunkfly/compiler/lexer.re|32|5|366
-./_buildtool/macros.cmake|47|11|303
+./_buildtool/macros.cmake|47|11|304
 ./base-compiler/tests/p_expr.lua|52|0|303
 ./base-compiler/tests/test.c|64|6|290
 ./base-common/src/drunkfly/vm.c|57|0|266
@@ -47,12 +47,12 @@ File|blank|comment|code
 ./base-compiler/tests/p_types.lua|12|0|84
 ./_buildtool/buildtool.cmake|23|7|79
 ./base-compiler/tests/CMakeLists.txt|16|2|78
+./_cmake/toolchain/borland45/_win32.cmake|20|2|77
 ./_buildtool/dependencies.cmake|22|22|76
 ./base-compiler/tests/l_num10.lua|5|3|75
 ./base-compiler/tests/util.c|13|0|74
 ./base-compiler/src/drunkfly/compiler.c|17|0|71
 ./base-compiler/src/drunkfly/compiler/codegen.c|18|0|69
-./_cmake/toolchain/borland45/_win32.cmake|19|0|64
 ./_cmake/common.cmake|14|7|63
 ./_cmake/toolchain/watcom10/_win32.cmake|19|0|63
 ./_cmake/flags.cmake|7|0|58
@@ -153,4 +153,4 @@ File|blank|comment|code
 ./server-core/cmake/dependencies.cmake|1|2|1
 ./base-common/cmake/dependencies.cmake|0|2|0
 --------|--------|--------|--------
-SUM:|1952|504|12925
+SUM:|1952|506|12943
