@@ -12,8 +12,9 @@ Yacc|1|113|21|645
 Re2C|1|32|5|366
 Windows .bat/.cmd|37|14|0|313
 Unix .sh|15|13|0|139
+Fly|2|2|1|8
 --------|--------|--------|--------|--------
-SUM:|133|1952|506|12943
+SUM:|135|1954|507|12951
 
 Per File
 --------
@@ -141,10 +142,12 @@ File|blank|comment|code
 ./_build/win32_bc45_debug.cmd|0|0|4
 ./_tools/winver/compile.cmd|0|0|4
 ./base-runtime/CMakeLists.txt|2|2|4
+./base-runtime/src/console.fly|1|0|4
 ./build_linux_all.sh|0|0|4
 ./build_macos_all.sh|0|0|4
 ./count_lines_of_code.sh|0|0|4
 ./server-core/CMakeLists.txt|2|2|4
+./server-core/src/main.fly|1|1|4
 ./build_win32_all.cmd|0|0|2
 ./base-common/cmake/common.cmake|1|0|1
 ./base-common/lib/CMakeLists.txt|1|0|1
@@ -153,4 +156,4 @@ File|blank|comment|code
 ./server-core/cmake/dependencies.cmake|1|2|1
 ./base-common/cmake/dependencies.cmake|0|2|0
 --------|--------|--------|--------
-SUM:|1952|506|12943
+SUM:|1954|507|12951
